@@ -48,5 +48,6 @@ $ docker run -d -p 8080:8080 go:v0.1
 Данный образ Docker будет весить в 70 раз меньше, чем стандартный, так как компиляция кода Go происходит в AlpineLinux.
 
 ![](https://habrastorage.org/webt/yc/fw/vi/ycfwviarlzk6wovcwlebd4mnxxw.png)
+
 ```v0.1``` - стандартный Docker образ с полной установкой Golang. (время сборки 3-4 мин.)
 ```v0.2``` и ```v0.3``` - Docker образ с созданием бинарника и запуском кода, использую легковесный Alpine 
