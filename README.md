@@ -22,7 +22,7 @@ $ sudo apt-get install go-golang
 ```
 $ sudo apt-get install docker.io 
 ```
-Инициируем контейнер под версией 2.0:
+Инициируем контейнер под версией 0.1:
 ```
 $ docker build . -t go:v0.1
 ```
