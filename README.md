@@ -36,7 +36,7 @@ $ docker images
 $ docker run go:v0.1
 $ docker run -d -p 8080:8080 go:v0.1
 ```
-Отслеживать майнинг можно по адресу ```localhost:8080/{сюда вписать любое слово} ``` 
+Увидеть наш сервис можно по адресу: ```localhost:8080/{сюда вписать любое слово} ``` 
 
 ```http://localhost:8080/Docker```
 ![](https://habrastorage.org/webt/xg/7f/fz/xg7ffz4pwxg9q8uw36osshgyb5c.png)
